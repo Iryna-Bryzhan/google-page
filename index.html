@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+<link rel="stylesheet" href="style.css">
+<script src="./index.js" defer></script>
+</head>
+<body>
+    <header class="header">
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__gap"><a class="nav__link" href="">Gmail</a></li>
+				<li><a class="nav__link" href="">Зображення</a></li>
+			</ul>
+			<button class="apps" type="button" aria-label="Apps">
+				<svg class="apps__icon" width="24" height="24">
+					<use href="images/icons.svg#apps"/>
+				</svg>
+			</button>
+			<a class="button button--login" href="/">Увійти</a>
+		</nav>
+	</header>
+	<main class="main">
+		<h1 class="main__title">
+			<img class="main__logo" src="images/logo-main.svg" width="272" height="92" fetchpriority="high" alt="Google">
+		</h1>
+		<search class="main__search">
+            <form action="">
+                <div class="search">
+                    <svg class="search__icon" width="24" height="24" aria-hidden="true">
+                        <use href="images/icons.svg#search"/>
+                    </svg>
+                    <input class="search__input" type="search" aria-label="Search">
+                    <button class="search__button" type="button" aria-label="Search by Tia">
+                        <img src="./images/tia.png" alt="">
+                    </button>
+                    <button class="search__button" type="button" aria-label="Search by Voice">
+                        <svg class="search__feature" width="24" height="24">
+                            <use href="images/icons.svg#voice"/>
+                        </svg>
+                    </button>
+                    <button class="search__button" type="button" aria-label="Search by Image">
+                        <svg class="search__feature" width="24" height="24">
+                            <use href="images/icons.svg#image"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="main__buttons">
+                    <button class="button button--main" type="button">Пошук Google</button>
+                    <button class="button button--main" type="button">Мені пощастить</button>
+                </div>
+            </form>
+        </search>
+        
+        
+		<p class="main__lang">
+			Мова Google:
+			<a class="main__link" href="">English</a>
+		</p>
+	</main>
+	<footer class="footer">
+		<p class="footer__text">Україна</p>
+		<ul class="footer__list">
+			<li><a class="footer__link" href="">Про Google</a></li>
+			<li><a class="footer__link" href="">Реклама</a></li>
+			<li><a class="footer__link" href="">Для бізнесу</a></li>
+            <li><a class="footer__link" href="">Як працює Пошук</a></li>
+		</ul>
+		<ul class="footer__list">
+			<li><a class="footer__link" href="">Конфіденційність</a></li>
+			<li><a class="footer__link" href="">Умови</a></li>
+			<li><a class="footer__link" href="">Налаштування</a></li>
+		</ul>
+	</footer>
+</body>
+</html>
+
