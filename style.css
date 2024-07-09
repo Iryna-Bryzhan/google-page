@@ -199,7 +199,8 @@ body {
 
 @media (max-width: 875px) {
   .search {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     max-width: none;
   }
 
